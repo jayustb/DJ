@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -62,6 +71,15 @@
       <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
       
       <guid>/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Socket</title>
+      <link>/tags/socket/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/socket/</guid>
       <description></description>
     </item>
     
@@ -143,6 +161,15 @@
       <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
       
       <guid>/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>网络</title>
+      <link>/tags/%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E7%BD%91%E7%BB%9C/</guid>
       <description></description>
     </item>
     

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>This is a hidden post. - DashJay&#39;s</title>
+  <title>本博客第一篇文章使用python进行Socket传输 - DashJay&#39;s</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,9 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Halulu" />
-  <meta name="description" content="This post is hidden from the home page.
-
+<meta name="author" content="DashJay" />
+  <meta name="description" content="
 " />
 
   <meta name="keywords" content="Hugo, theme, even" />
@@ -31,7 +30,7 @@
 <meta name="generator" content="Hugo 0.48" />
 
 
-<link rel="canonical" href="/post/hidden-post/" />
+<link rel="canonical" href="/post/python-socket/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -51,31 +50,25 @@
 
 
 
-<meta property="og:title" content="This is a hidden post." />
-<meta property="og:description" content="This post is hidden from the home page.
-
-" />
+<meta property="og:title" content="本博客第一篇文章使用python进行Socket传输" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/hidden-post/" /><meta property="article:published_time" content="2018-03-08T17:40:19&#43;08:00"/>
-<meta property="article:modified_time" content="2018-03-08T22:01:19&#43;08:00"/>
-<meta itemprop="name" content="This is a hidden post.">
-<meta itemprop="description" content="This post is hidden from the home page.
-
-">
+<meta property="og:url" content="/post/python-socket/" /><meta property="article:published_time" content="2018-10-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-10-13T09:52:27&#43;08:00"/>
+<meta itemprop="name" content="本博客第一篇文章使用python进行Socket传输">
+<meta itemprop="description" content="">
 
 
-<meta itemprop="datePublished" content="2018-03-08T17:40:19&#43;08:00" />
-<meta itemprop="dateModified" content="2018-03-08T17:40:19&#43;08:00" />
-<meta itemprop="wordCount" content="19">
+<meta itemprop="datePublished" content="2018-10-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-10-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="615">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="Python,Socket,网络," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="This is a hidden post."/>
-<meta name="twitter:description" content="This post is hidden from the home page.
-
-"/>
+<meta name="twitter:title" content="本博客第一篇文章使用python进行Socket传输"/>
+<meta name="twitter:description" content=""/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -142,11 +135,19 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">This is a hidden post.</h1>
+      <h1 class="post-title">本博客第一篇文章使用python进行Socket传输</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-03-08 </span>
-        
+        <span class="post-time"> 2018-10-13 </span>
+        <div class="post-category">
+            
+              <a href="/categories/python/"> Python </a>
+            
+              <a href="/categories/socket/"> Socket </a>
+            
+              <a href="/categories/%E7%BD%91%E7%BB%9C/"> 网络 </a>
+            
+          </div>
         
         
       </div>
@@ -154,57 +155,161 @@
 
     
     
-<div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Contents</h2>
-  
-  <div class="post-toc-content always-active">
-    
-  </div>
-</div>
 
     
     
 
     
     <div class="post-content">
-      <p>This post is hidden from the home page.</p>
+      <p></p>
 
-<p></p>
+<blockquote>
+<p>Socket用来进行网络传输的底层包,是对TCP/IP(UDP)的封装,这次我使用Python在一台虚拟机中给另一台虚拟机传输一个内容</p>
+</blockquote>
 
-<p>But you can see it in archives, rss or other pages.</p>
+<p>首先代码如下</p>
+
+<pre><code class="language-python">import socket
+
+def main():
+    # Create Socket
+    udp_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+
+    # Use socket to send and recieve
+    addr = ('10.211.55.14' ,8080)
+    s = b'Fuck You'
+    udp_socket.sendto(s,addr)
+
+    # Close Socket    
+    udp_socket.close()
+if __name__ == &quot;__main__&quot;:
+    main()
+
+</code></pre>
+
+<p>随着这个程序的运行,我的另一边Windows机器中的的调试助手也收到了消息</p>
+
+<p><img src="/post/2018-10-13-python-socket_files/屏幕快照 2018-10-13 09.55.58.png" alt="收到了Fuck You字样" width="70%"/></p>
+
+<h3 id="1-在这个过程中我遇到了一些有关虚拟机的问题-打算弄明白一点-下面是一些记录">1.在这个过程中我遇到了一些有关虚拟机的问题,打算弄明白一点,下面是一些记录</h3>
+
+<p>其实整个电脑虚拟机里有很多虚拟网卡,申请到了很多不同的ip,把网络适配设置好可以让电脑处于同一个局域网下.</p>
+
+<h3 id="2-老师教给我我使用了ipython3-交互模式">2.老师教给我我使用了ipython3,交互模式</h3>
+
+<p>这种交互类型非常给力,可以使用<code>ls</code>等基础命令</p>
+
+<h3 id="3-本来只能发送byte-like的字符">3.本来只能发送byte-like的字符</h3>
+
+<p><code>udp_socket.sendto(send_data.encode(&quot;utf-8&quot;),addr)</code></p>
+
+<p>使用<code>encode</code>方法让发送顺利</p>
+
+<h3 id="4-怎么接收数据呢">4.怎么接收数据呢???</h3>
+
+<p>我们需要监听(绑定)某个端口才能收到别人发送过来的消息</p>
+
+<pre><code class="language-python">import socket
+
+def main():
+    # Create Socket
+    udp_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+
+    # Use socket to send and recieve
+    # empty the ip can get one ip of this device
+    addr = (&quot;&quot;,8080)
+    udp_socket.bind(addr)
+
+    # wait for the data from other
+    # 1024 shows that the maxsize of data
+    recv_data = udp_socket.recvfrom(1024)
+
+    # show what recieve
+    print(recv_data[0].decode('utf-8'))
+
+    # Close Socket    
+    udp_socket.close()
+if __name__ == &quot;__main__&quot;:
+    main()
+    
+</code></pre>
+
+<p>绑定之后等待设置接受最大的内容,然后坐等就行了额最后接收到之后会储存在命名的数组中</p>
+
+<p>随着windows中数据的发送:</p>
+
+<p><img src="/post/2018-10-13-python-socket_files/屏幕快照 2018-10-13 10.33.23.png" alt="" width="99%"/></p>
+
+<p>Ubuntu这边也收到了相关的内容</p>
+
+<p><img src="/post/2018-10-13-python-socket_files/屏幕快照 2018-10-13 10.33.17.png" alt="" width="99%"/></p>
+
+<h3 id="5-有关编码的问题总之比较麻烦">5.有关编码的问题总之比较麻烦</h3>
+
+<h3 id="6-只能bind自己的信息">6.只能bind自己的信息</h3>
+
+<h3 id="7-如果想循环接受设置一个while-true就好了">7.如果想循环接受设置一个While True就好了</h3>
+
+<pre><code class="language-python">
+import socket
+
+def main():
+    # Create Socket
+    # 创建套接字
+    udp_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+
+    localaddr = (&quot;&quot;,8878)
+    udp_socket.bind(localaddr)
+
+    while True:
+        recv_data = udp_socket.recvfrom(1024)
+        recv_msg = recv_data[0].decode('gbk')
+        recv_addr = recv_data[1]
+        print(&quot;%s : %s&quot;%(str(recv_addr),recv_msg))    
+
+    # Close Socket    
+    udp_socket.close()
+if __name__ == &quot;__main__&quot;:
+    main()
+    
+</code></pre>
+
+<p>只要一直发送就能接受啦
+<img src="/post/2018-10-13-python-socket_files/屏幕快照 2018-10-13 11.18.02.png" alt="" width="99%"/></p>
+
+<p>Ubuntu这边一直在接受</p>
+
+<p><img src="/post/2018-10-13-python-socket_files/屏幕快照 2018-10-13 11.18.10.png" alt="" width="99%"/></p>
     </div>
 
     
-    <div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">Author</span>
-    <span class="item-content"><a href="https://halu.lu" target="_blank">Halulu</a></span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">LastMod</span>
-    <span class="item-content">2018-03-08</span>
-  </p>
-  
-  
-</div>
+    
 
     
     
 
     <footer class="post-footer">
-      
+      <div class="post-tags">
+          
+          <a href="/tags/python/">Python</a>
+          
+          <a href="/tags/socket/">Socket</a>
+          
+          <a href="/tags/%E7%BD%91%E7%BB%9C/">网络</a>
+          
+        </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/python-socket/">
+          <a class="prev" href="/post/even-preview/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">本博客第一篇文章使用python进行Socket传输</span>
+            <span class="prev-text nav-default">Theme preview</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/post/english-preview/">
-            <span class="next-text nav-default">[English] Creating a New Theme</span>
+          <a class="next" href="/post/hidden-post/">
+            <span class="next-text nav-default">This is a hidden post.</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -213,9 +318,6 @@
   </article>
         </div>
         
-  
-
-  
 
       </div>
     </main>

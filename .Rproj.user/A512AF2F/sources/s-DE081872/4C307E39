@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1539390564260.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4C307E39",
+    "lastKnownWriteTime" : 1539391704,
+    "last_content_update" : 1539391704243,
+    "path" : "~/Desktop/ZWJ/blog/DJ/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "141,23",
+        "scrollLine" : "136"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

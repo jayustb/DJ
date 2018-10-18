@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on DashJay&#39;s</title>
+    <link>/categories/unity/</link>
+    <description>Recent content in Unity on DashJay&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/unity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unity2D中摄像头视角屏幕上的点坐标获取</title>
+      <link>/post/unity2d/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/unity2d/</guid>
+      <description>按照教程里的一步一步做了,先申请到两个三维向量但是赋值为 void CalculateSize() { Vector3 leftDown = new Vector3(0, 0); Vector3 rightUp = new Vector3(1, 1); Vector3 p1 = Camera.main.ViewportToWorldPoint(leftDown); Vector3 p2 = Camera.main.ViewportToWorldPoint(rightUp); ...... } 可是即便转化成了世界坐标,他的坐标</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,19 @@
     <description>Recent content in Socket on DashJay&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/socket/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UDP实现聊天软件</title>
+      <link>/post/udp/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/udp/</guid>
+      <description>I.Socket基本流程 1.创建 upd_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM) (可选)绑定 localaddr = (&amp;quot;&amp;quot;,6789) udp_socket.bind(localaddr) 2.使用 udp_socket.sendto(&amp;quot;xxxxx&amp;quot;.encode(&amp;quot;utf-8&amp;quot;),(&amp;quot;192.168.33.11&amp;quot;,7890)) # 必须encode才能发送 udp_socket.recvfrom(1024) 3.关闭套接字 upd_socket.close() 注意:一个端口号只能绑定一个</description>
+    </item>
     
     <item>
       <title>本博客第一篇文章使用python进行Socket传输</title>

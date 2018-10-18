@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TensorFlow on DashJay&#39;s</title>
+    <link>/categories/tensorflow/</link>
+    <description>Recent content in TensorFlow on DashJay&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>又得重新学习TensorFlow</title>
+      <link>/post/tensorflow/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tensorflow/</guid>
+      <description>坑爹搭建环境用了我很长时间啊 1.首先我安装了Anaconda创建了一个一个环境叫做TensorFlow 2.conda create -n tensorflow创建了这个环</description>
+    </item>
+    
+  </channel>
+</rss>

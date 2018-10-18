@@ -6,9 +6,28 @@
     <description>Recent content in Categories on DashJay&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sun, 14 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2D</title>
+      <link>/categories/2d/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/2d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camera</title>
+      <link>/categories/camera/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/camera/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Category-2</title>
@@ -25,6 +44,15 @@
       <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
       
       <guid>/categories/category-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>/categories/editor/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/editor/</guid>
       <description></description>
     </item>
     
@@ -83,11 +111,38 @@
     </item>
     
     <item>
+      <title>TensorFlow</title>
+      <link>/categories/tensorflow/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Theme preview</title>
       <link>/categories/theme-preview/</link>
       <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
       
       <guid>/categories/theme-preview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>/categories/unity/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Untiy</title>
+      <link>/categories/untiy/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/untiy/</guid>
       <description></description>
     </item>
     
@@ -101,6 +156,15 @@
     </item>
     
     <item>
+      <title>密码学</title>
+      <link>/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>日本語</title>
       <link>/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
       <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
@@ -110,9 +174,27 @@
     </item>
     
     <item>
+      <title>游戏</title>
+      <link>/categories/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>神经网络</title>
+      <link>/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>网络</title>
       <link>/categories/%E7%BD%91%E7%BB%9C/</link>
-      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/%E7%BD%91%E7%BB%9C/</guid>
       <description></description>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RSA on DashJay&#39;s</title>
+    <link>/tags/rsa/</link>
+    <description>Recent content in RSA on DashJay&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rsa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>密码学Information security</title>
+      <link>/post/information-security/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/information-security/</guid>
+      <description>我看的视频如下 然后以下是笔记 1.对称加密 A m-(+e)-&amp;gt;C B m-(-e)&amp;lt;-C 对称解码 2.非对称加密 RSA加密算法基本原理 找出两个质数p,q n = p*q $ \phi(n) = (p-1)(q-1) $ 欧拉函数 4.公</description>
+    </item>
+    
+  </channel>
+</rss>

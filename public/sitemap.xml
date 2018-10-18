@@ -17,6 +17,55 @@
   </url>
   
   <url>
+    <loc>/post/deeplearning-ai/</loc>
+    <lastmod>2018-10-18T01:28:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/tensorflow/</loc>
+    <lastmod>2018-10-17T01:16:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/unity-inspector/</loc>
+    <lastmod>2018-10-16T17:55:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/information-security/</loc>
+    <lastmod>2018-10-15T10:50:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/udp/</loc>
+    <lastmod>2018-10-14T23:50:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/unity2d/</loc>
+    <lastmod>2018-10-14T08:26:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/2018-10-14-/</loc>
+    <lastmod>2018-10-14T20:09:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/python-socket/</loc>
     <lastmod>2018-10-13T09:52:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,7 +136,22 @@
   </url>
   
   <url>
+    <loc>/categories/2d/</loc>
+    <lastmod>2018-10-14T08:26:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/camera/</loc>
+    <lastmod>2018-10-14T08:26:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2018-10-14T08:26:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -109,6 +173,20 @@
   <url>
     <loc>/</loc>
     <lastmod>2017-08-23T18:03:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/editor/</loc>
+    <lastmod>2018-10-16T17:55:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/editor/</loc>
+    <lastmod>2018-10-16T17:55:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -177,6 +255,13 @@
   </url>
   
   <url>
+    <loc>/tags/rsa/</loc>
+    <lastmod>2018-10-15T10:50:31+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -199,7 +284,7 @@
   
   <url>
     <loc>/tags/socket/</loc>
-    <lastmod>2018-10-13T09:52:27+08:00</lastmod>
+    <lastmod>2018-10-14T23:50:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -262,7 +347,14 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-08-31T15:43:48+08:00</lastmod>
+    <lastmod>2018-10-16T17:55:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tensorflow/</loc>
+    <lastmod>2018-10-17T01:16:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -282,6 +374,20 @@
   </url>
   
   <url>
+    <loc>/categories/unity/</loc>
+    <lastmod>2018-10-14T08:26:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/untiy/</loc>
+    <lastmod>2018-10-16T17:55:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -291,6 +397,20 @@
   <url>
     <loc>/categories/%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <lastmod>2018-10-17T01:16:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <lastmod>2018-10-15T10:50:31+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -310,6 +430,20 @@
   </url>
   
   <url>
+    <loc>/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2018-10-14T20:09:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2018-10-18T01:28:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2018-10-13T09:52:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -318,7 +452,7 @@
   
   <url>
     <loc>/categories/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2018-10-13T09:52:27+08:00</lastmod>
+    <lastmod>2018-10-14T23:50:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

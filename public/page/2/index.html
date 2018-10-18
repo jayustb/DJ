@@ -54,7 +54,7 @@
 <meta property="og:description" content="Hugo theme even example site." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2016-08-30T16:01:23&#43;08:00"/>
+<meta property="og:updated_time" content="2018-10-14T00:00:00&#43;00:00"/>
 <meta itemprop="name" content="DashJay&#39;s">
 <meta itemprop="description" content="Hugo theme even example site.">
 
@@ -131,12 +131,12 @@
     
       <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/shortcodes/">Shortcodes</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/udp/">UDP实现聊天软件</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2016-08-30 </span>
+      <span class="post-time"> 2018-10-14 </span>
       <div class="post-category">
           
-            <a href="/categories/shortcodes/"> shortcodes </a>
+            <a href="/categories/%E7%BD%91%E7%BB%9C/"> 网络 </a>
           
         </div>
       
@@ -145,31 +145,10 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <h1 id="center-right-left">center, right, left</h1>
-
-<pre><code>## default
-![img](/path/to/img.gif &quot;img&quot;)
-
-{{% center %}}
-## center
-![img](/path/to/img.gif &quot;img&quot;)
-{{% /center %}}
-
-{{% right %}}
-## right
-![img](/path/to/img.gif &quot;img&quot;)
-{{% /right %}}
-
-{{% left %}}
-## left
-![img](/path/to/img.gif &quot;img&quot;)
-{{% /left %}}
-</code></pre>
-
-<p></p>
+      I.Socket基本流程 1.创建 upd_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM) (可选)绑定 localaddr = (&quot;&quot;,6789) udp_socket.bind(localaddr) 2.使用 udp_socket.sendto(&quot;xxxxx&quot;.encode(&quot;utf-8&quot;),(&quot;192.168.33.11&quot;,7890)) # 必须encode才能发送 udp_socket.recvfrom(1024) 3.关闭套接字 upd_socket.close() 注意:一个端口号只能绑定一个
     </div>
     <div class="read-more">
-      <a href="/post/shortcodes/" class="read-more-link">Read more..</a>
+      <a href="/post/udp/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
@@ -177,12 +156,16 @@
     
       <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/unity2d/">Unity2D中摄像头视角屏幕上的点坐标获取</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2015-07-23 </span>
+      <span class="post-time"> 2018-10-14 </span>
       <div class="post-category">
           
-            <a href="/categories/r/"> R </a>
+            <a href="/categories/unity/"> Unity </a>
+          
+            <a href="/categories/2d/"> 2D </a>
+          
+            <a href="/categories/camera/"> Camera </a>
           
         </div>
       
@@ -191,12 +174,10 @@
   
   <div class="post-content">
     <div class="post-summary">
-      R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
+      按照教程里的一步一步做了,先申请到两个三维向量但是赋值为 void CalculateSize() { Vector3 leftDown = new Vector3(0, 0); Vector3 rightUp = new Vector3(1, 1); Vector3 p1 = Camera.main.ViewportToWorldPoint(leftDown); Vector3 p2 = Camera.main.ViewportToWorldPoint(rightUp); ...... } 可是即便转化成了世界坐标,他的坐标
     </div>
     <div class="read-more">
-      <a href="/post/2015-07-23-r-rmarkdown/" class="read-more-link">Read more..</a>
+      <a href="/post/unity2d/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
@@ -204,81 +185,12 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
       <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/js-flowchart-diagrams/">JS Flowchart Diagrams</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/2018-10-14-/">给同学们介绍游戏这么一回事儿</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2015-03-04 </span>
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <h2 id="usage">Usage</h2>
-
-<pre><code class="language-flowchart">st=&gt;start: Start|past:&gt;http://www.google.com[blank]
-e=&gt;end: End:&gt;http://www.google.com
-op1=&gt;operation: My Operation|past
-op2=&gt;operation: Stuff|current
-sub1=&gt;subroutine: My Subroutine|invalid
-cond=&gt;condition: Yes
-or No?|approved:&gt;http://www.google.com
-c2=&gt;condition: Good idea|rejected
-io=&gt;inputoutput: catch something...|request
-
-st-&gt;op1(right)-&gt;cond
-cond(yes, right)-&gt;c2
-cond(no)-&gt;sub1(left)-&gt;op1
-c2(yes)-&gt;io-&gt;e
-c2(no)-&gt;op2-&gt;e
-</code></pre>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/post/js-flowchart-diagrams/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/js-sequence-diagrams/">JS Sequence Diagrams</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2015-03-04 </span>
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <h2 id="usage">Usage</h2>
-
-<pre><code class="language-sequence">Andrew-&gt;China: Says Hello
-Note right of China: China thinks\nabout it
-China--&gt;Andrew: How are you?
-Andrew-&gt;&gt;China: I am good thanks!
-</code></pre>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/post/js-sequence-diagrams/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/syntax-highlighting/">Syntax Highlighting</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2011-08-30 </span>
+      <span class="post-time"> 2018-10-14 </span>
       <div class="post-category">
           
-            <a href="/categories/syntax-highlighting/"> Syntax Highlighting </a>
+            <a href="/categories/%E6%B8%B8%E6%88%8F/"> 游戏 </a>
           
         </div>
       
@@ -287,15 +199,65 @@ Andrew-&gt;&gt;China: I am good thanks!
   
   <div class="post-content">
     <div class="post-summary">
-      <pre><code class="language-js">function helloWorld () {
-  alert(&quot;Hello, World!&quot;)
-}
-</code></pre>
-
-<p></p>
+      <p></p>
     </div>
     <div class="read-more">
-      <a href="/post/syntax-highlighting/" class="read-more-link">Read more..</a>
+      <a href="/post/2018-10-14-/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/python-socket/">本博客第一篇文章使用python进行Socket传输</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-10-13 </span>
+      <div class="post-category">
+          
+            <a href="/categories/python/"> Python </a>
+          
+            <a href="/categories/socket/"> Socket </a>
+          
+            <a href="/categories/%E7%BD%91%E7%BB%9C/"> 网络 </a>
+          
+        </div>
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p></p>
+    </div>
+    <div class="read-more">
+      <a href="/post/python-socket/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/english-preview/">[English] Creating a New Theme</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2017-08-31 </span>
+      <div class="post-category">
+          
+            <a href="/categories/english/"> English </a>
+          
+        </div>
+      
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
+    </div>
+    <div class="read-more">
+      <a href="/post/english-preview/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
@@ -310,6 +272,10 @@ Andrew-&gt;&gt;China: I am good thanks!
         <span class="prev-text">Prev</span>
       </a>
     
+      <a class="next" href="/page/3/">
+        <span class="next-text">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
   </nav>
 
         </div>

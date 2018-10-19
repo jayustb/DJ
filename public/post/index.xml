@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>TensorFlow莫凡</title>
+      <link>/post/mofantensorflow/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mofantensorflow/</guid>
+      <description>这个项目之前已经做了好多次了,今天纯手打了一次 import tensorflow as tf import numpy as np # create data x_data=np.random.rand(100).astype(np.float32) y_data=x_data*0.1+0.3 ## create tensorflow structure start ## # 用随机的方式生成的随机数列,1代表一维结构(-1,1)</description>
+    </item>
+    
+    <item>
       <title>吴恩达神经网络DeepLearning.ai</title>
       <link>/post/deeplearning-ai/</link>
       <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>

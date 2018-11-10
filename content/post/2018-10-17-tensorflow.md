@@ -62,11 +62,14 @@ img =
 
 ```
 
+
 该2x2图片里储存的,信息就如下
 
 
 <img src="/post/2018-10-17-tensorflow_files/屏幕快照 2018-10-17 23.36.45.png" alt="" width="90%"/>
 
+
+<center><img src="/post/2018-10-17-tensorflow_files/dddpng" alt="" width="40%"/></center>
 
 拿到像素点的信息之后我们就可以干活了,比如我们通过数学公式来判断,图像里面的信息,内容
 

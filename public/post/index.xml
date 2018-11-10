@@ -21,6 +21,69 @@
     </item>
     
     <item>
+      <title>手游开发EasyTouch的使用</title>
+      <link>/post/easytouch/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/easytouch/</guid>
+      <description>EasyTouch是用来开发手机端程序的 EasyTouch四和五提供了两种不同的方式来监听手上的操作 个人虽然认为四版本的效率会高一点,但是听</description>
+    </item>
+    
+    <item>
+      <title>信息安全数学基础我直接在课上记下来的笔记</title>
+      <link>/post/2018-11-05math-/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-11-05math-/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>总结鹏哥的一席话DataStructrue</title>
+      <link>/post/datastructrue/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/datastructrue/</guid>
+      <description>&amp;gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全 字典树[hashfunc] 字典是一种</description>
+    </item>
+    
+    <item>
+      <title>最后还是逃不过skimage这个东西</title>
+      <link>/post/skimage/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/skimage/</guid>
+      <description>平时我们做的事情只是分类而已,但是这一次,我们要在一张图片上认出不同的形状来这对我们ACC99队伍来说是一个挑战,经过商讨之后我们决定先将图</description>
+    </item>
+    
+    <item>
+      <title>Be Patient!!!</title>
+      <link>/post/be-patient/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/be-patient/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>delegate委托,事件EventHandler使用</title>
+      <link>/post/delegate-eventhandler/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/delegate-eventhandler/</guid>
+      <description>为了实现鼠标的点击事件,和处理逻辑分离,我们通常这样做 创建一个类,继承与EventArgs, //鼠标点击参数类 public class TileClickEventArgs : EventArgs { //0左键,1右键</description>
+    </item>
+    
+    <item>
+      <title>保卫萝卜MVC游戏开发</title>
+      <link>/post/mvc/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mvc/</guid>
+      <description>过程中很多时候并不知道自己在做什么,回头来看也不是很明白,但是先这么做吧,TODO一下之后再理解 创建了一个类继承与一个MVC,Applica</description>
+    </item>
+    
+    <item>
       <title>TensorFlow莫凡</title>
       <link>/post/mofantensorflow/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>

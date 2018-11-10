@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据结构 on DashJay&#39;s</title>
+    <link>/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+    <description>Recent content in 数据结构 on DashJay&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>总结鹏哥的一席话DataStructrue</title>
+      <link>/post/datastructrue/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/datastructrue/</guid>
+      <description>&amp;gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全 字典树[hashfunc] 字典是一种</description>
+    </item>
+    
+  </channel>
+</rss>

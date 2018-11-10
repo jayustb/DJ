@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>手游开发EasyTouch的使用 - DashJay&#39;s</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="DashJay" />
+  <meta name="description" content="EasyTouch是用来开发手机端程序的 EasyTouch四和五提供了两种不同的方式来监听手上的操作 个人虽然认为四版本的效率会高一点,但是听" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.48" />
+
+
+<link rel="canonical" href="/post/easytouch/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="手游开发EasyTouch的使用" />
+<meta property="og:description" content="EasyTouch是用来开发手机端程序的 EasyTouch四和五提供了两种不同的方式来监听手上的操作 个人虽然认为四版本的效率会高一点,但是听" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/easytouch/" /><meta property="article:published_time" content="2018-11-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-11-10T16:18:20&#43;08:00"/>
+<meta itemprop="name" content="手游开发EasyTouch的使用">
+<meta itemprop="description" content="EasyTouch是用来开发手机端程序的 EasyTouch四和五提供了两种不同的方式来监听手上的操作 个人虽然认为四版本的效率会高一点,但是听">
+
+
+<meta itemprop="datePublished" content="2018-11-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-11-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="639">
+
+
+
+<meta itemprop="keywords" content="游戏," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="手游开发EasyTouch的使用"/>
+<meta name="twitter:description" content="EasyTouch是用来开发手机端程序的 EasyTouch四和五提供了两种不同的方式来监听手上的操作 个人虽然认为四版本的效率会高一点,但是听"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">DashJay</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">DashJay</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">手游开发EasyTouch的使用</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-11-10 </span>
+        <div class="post-category">
+            
+              <a href="/categories/unity/"> Unity </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<h2 id="easytouch是用来开发手机端程序的">EasyTouch是用来开发手机端程序的</h2>
+
+<blockquote>
+<h2 id="easytouch四和五提供了两种不同的方式来监听手上的操作">EasyTouch四和五提供了两种不同的方式来监听手上的操作</h2>
+
+<hr />
+</blockquote>
+
+<p>个人虽然认为四版本的效率会高一点,但是听老大说,都一样,都是同一种的东西的不同实现</p>
+
+<p>先说一下四版本的用法</p>
+
+<h3 id="1-首先我们需要在场景中添加easytouch这个组件来保证4版本的运行成功">1.首先我们需要在场景中添加EasyTouch这个组件来保证4版本的运行成功</h3>
+
+<p><center><img src="/post/2018-11-10-easytouch_files/屏幕快照 2018-11-10 20.15.40.png" alt="" width="49%"/></center></p>
+
+<h3 id="2-然后我们在代码中必须在onenable里添加监听或者说委托">2.然后我们在代码中必须在Onenable里添加监听或者说委托</h3>
+
+<pre><code>private void OnEnable(){
+  EasyTouch.On_SimpleTap += delegate{
+    Debug.log(&quot;我就点了一下&quot;)
+  }
+}
+</code></pre>
+
+<p>我们这样操作是可以达成目标的,但是有时候光添加不管删除总是容易造成错乱,因此我们常常写一个外部方法,在需要的时候进行调用</p>
+
+<pre><code>    //开始初始化,添加监听
+    private void OnEnable()
+    {
+        EasyTouch.On_SimpleTap += OneClick;
+    }
+
+    //结束时候关闭监听
+    private void OnDestroy()
+    {
+        EasyTouch.On_SimpleTap -= OneClick;
+    }
+
+    static void OneClick(Gesture gesture)
+    {
+        Debug.Log(&quot;w偶就点了一下咋地&quot;);
+    }
+</code></pre>
+
+<p>这是C#的一种特性,类似于委托,类似于Addlistener那一套都是一样的东西</p>
+
+<hr />
+
+<p>我觉得上方的方法效率会高一些,但是实际开发中往往使用一下方法</p>
+
+<h3 id="3-easytouch5代的新特性">3.Easytouch5代的新特性</h3>
+
+<p>五代的新特性中无需使用监听的方法了,他直接使用类似于inpiut的方法,效果非常好,开发省时省力</p>
+
+<pre><code>void Update()
+    {
+        Gesture CurrentGestrue = EasyTouch.current;
+
+        if (EasyTouch.EvtType.On_SimpleTap == CurrentGestrue.type)
+        {
+            print(&quot;我也就点了一下啊&quot;)
+        } 
+    }
+</code></pre>
+
+<p>以上方法一样可以达到目的,但是我不知道为啥我就是感觉他比之前的方法慢了那么一点,因此我还是,为了偷懒,使用第二种五代方法吧</p>
+
+<blockquote>
+<h1 id="真香">真香</h1>
+</blockquote>
+
+<p>以上主要说的都是,其实对屏幕的操控,其他的按钮,或者其他的Stick类的东西都可以使用同样的方法,是不是超级牛逼</p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E6%B8%B8%E6%88%8F/">游戏</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/even-preview/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Theme preview</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2018-11-05math-/">
+            <span class="next-text nav-default">信息安全数学基础我直接在课上记下来的笔记</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">DashJay</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -107,6 +107,7 @@ for step in range(201):
 
 所以我们要通过学习这些优化的原理来,解决更加复杂的问题
 
+- - - -
 - 1.Session的控制
 
 >我们尝试创建两个数组来学习Session的思考模式,这种创建好业务,通过其他方法来执行
@@ -141,3 +142,96 @@ sess.close()
 [[12]]
 
 ```
+
+>我可以使用另一种运行方法,来自动关闭Session
+
+```python
+
+with tf.Session() as sess:
+	result2 = sess.run(product)
+	print(result2)
+	
+```
+
+这样也可以得到结果,[[12]]
+
+- - - -
+- 2.Variable控制使用
+
+```python
+import tensorflow as tf
+
+# 创建了一个名字叫做Counter的变量0
+state = tf.Variable(0,name='counter')
+
+# one这个常量就是1
+one = tf.constant(1)
+
+# 新的数值是等于前一个数值加一的
+new_value = tf.add(state,one)
+
+#然后给新变量赋值
+update = tf.assign(state,new_value)
+
+#初始化所有数据
+init = tf.global_variables_initializer()
+
+# 开始Session
+with tf.Session() as sess:
+    # 数据初始化
+    sess.run(init)
+    #循环三次
+    for _ in range(3):
+        sess.run(update)
+        print(sess.run(state))
+```
+Variable还真的就是Variable,不能用普通的常数代替
+
+- - - -
+- 3.PlaceHolder的用途
+
+我们可以在写代码的时候不考虑输入的情况,然后在最后运算的时候输入说需要的数据
+
+```python
+
+import tensorflow as tf
+
+# 首先给定类型，大部分情况都只处理float32
+input1 = tf.placeholder(tf.float32)
+input2 = tf.placeholder(tf.float32)
+
+output = tf.multiply(input1, input2)
+
+with tf.Session() as sess:
+    print(sess.run(output, feed_dict={input1: [7], input2: [2]}))
+
+```
+
+>注意几点:都是以字典的形式输入的
+
+- 4.激励函数
+
+什么是激励函数的:不能使用线性解决的问题就可以用
+
+>例子:女生非常漂亮都是时候,更多男生会喜欢这个女生这句话,但是假设当阿女生接近无限漂亮的时候,是不可能出现无数个男生喜欢这个女生的,因为男生的数量也有限,
+
+以上就是我们生活中一个常见的非线性案例
+
+<img src="/post/2018-10-19-mofantensorflow_files/屏幕快照 2018-10-20 01.32.46.png" alt="" width="50%"/>
+
+
+在卷积中推荐:relu
+
+循环神经网络中推荐relu和tanh
+
+到时什么是激励函数呢?
+
+你可以选择让一部分神经元激励,一部分不激励,来满足需求
+
+<center><img src="/post/2018-10-19-mofantensorflow_files/屏幕快照 2018-10-20 01.37.14.png" alt="" width="40%"/></center>
+
+除了线性的激励函数之外还有很多激励函数的›
+
+<img src="/post/2018-10-19-mofantensorflow_files/屏幕快照 2018-10-20 01.38.40.png" alt="" width="80%"/>
+
+<img src="/post/2018-10-19-mofantensorflow_files/屏幕快照 2018-10-20 01.39.20.png" alt="" width="80%"/>

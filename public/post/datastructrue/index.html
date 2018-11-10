@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>总结鹏哥的一席话DataStructrue - DashJay&#39;s</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Dashjay" />
+  <meta name="description" content="&amp;gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全 字典树[hashfunc] 字典是一种" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.48" />
+
+
+<link rel="canonical" href="/post/datastructrue/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="总结鹏哥的一席话DataStructrue" />
+<meta property="og:description" content="&gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全 字典树[hashfunc] 字典是一种" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/datastructrue/" /><meta property="article:published_time" content="2018-11-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-11-05T00:02:54&#43;08:00"/>
+<meta itemprop="name" content="总结鹏哥的一席话DataStructrue">
+<meta itemprop="description" content="&gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全 字典树[hashfunc] 字典是一种">
+
+
+<meta itemprop="datePublished" content="2018-11-05T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-11-05T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="547">
+
+
+
+<meta itemprop="keywords" content="算法," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="总结鹏哥的一席话DataStructrue"/>
+<meta name="twitter:description" content="&gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全 字典树[hashfunc] 字典是一种"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">DashJay</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">DashJay</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">总结鹏哥的一席话DataStructrue</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-11-05 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"> 数据结构 </a>
+            
+          </div>
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>
+&gt; #新来806,听鹏哥做了五六年游戏,谈了几句,鹏哥给我讲了很多内容,由于时间原因只能稍作记录未来再补全</p>
+
+<h2 id="字典树-hashfunc">字典树[hashfunc]</h2>
+
+<blockquote>
+<p>字典是一种无序的结构,常常可以在O(1)的时间内增删查改,非常方便</p>
+</blockquote>
+
+<p><code>public Dictionary&lt;string,T&gt; dic;</code></p>
+
+<p><code>public Dictionary&lt;int,T&gt; dic2;</code></p>
+
+<p>以上两种字典都是我们在C#中常用的字典,但是我们没有想过为什么它本身是无序的,需要增删查改的时候却只有O(1)的复杂度.</p>
+
+<p>这是字典树的功劳,也是hashfunc的功劳.</p>
+
+<p>当我们尝试储存很多键值对的时候,往往是键的输入转化成了一个不唯一的hash数值,让他对应到一个字典hash表中的一列</p>
+
+<p>假如我向字典中添加进了<code>'abc': Hero</code>这组数据,那么计算机会把<code>'abc'</code>通过<code>hashfunc()</code>转化成一个对应的hash数值,并且找到目标位置放入
+假如hash数值是621那么
+<center><img src="/post/2018-11-05-datastructrue_files/屏幕快照 2018-11-05 00.42.32.png" alt="" width="99%"/></center></p>
+
+<p>当我们想要找这个数值的时候再同伙hash算法返回找到那个对应的键值对并且返回,这是非常快速的,但是有时候会出现一个可能是偶然出现的问题,就是两个键会对应同一个hash数值</p>
+
+<p>例如</p>
+
+<blockquote>
+<p>hashfunc(&lsquo;abc&rsquo;) = 621</p>
+
+<p>hashfunc(&lsquo;acd&rsquo;) = 621</p>
+</blockquote>
+
+<p>这时候hash数值就有点不管用了,要上hash树,hash树的原理其实很简单就是,生成一个不够我生成两个,两个不够我生成三个,反正就是能匹配上.</p>
+
+<p><img src="/post/2018-11-05-datastructrue_files/屏幕快照 2018-11-05 00.50.53.png" alt="" width="99%"/></p>
+
+<p>总之以上内容很简单但是比较冷门
+今天先总结那么多,其他的明天再说 2018年11月5日周一00:56</p>
+
+<hr />
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E7%AE%97%E6%B3%95/">算法</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2018-11-05math-/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">信息安全数学基础我直接在课上记下来的笔记</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/skimage/">
+            <span class="next-text nav-default">最后还是逃不过skimage这个东西</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">DashJay</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

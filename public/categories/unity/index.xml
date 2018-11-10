@@ -6,10 +6,37 @@
     <description>Recent content in Unity on DashJay&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/unity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>手游开发EasyTouch的使用</title>
+      <link>/post/easytouch/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/easytouch/</guid>
+      <description>EasyTouch是用来开发手机端程序的 EasyTouch四和五提供了两种不同的方式来监听手上的操作 个人虽然认为四版本的效率会高一点,但是听</description>
+    </item>
+    
+    <item>
+      <title>delegate委托,事件EventHandler使用</title>
+      <link>/post/delegate-eventhandler/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/delegate-eventhandler/</guid>
+      <description>为了实现鼠标的点击事件,和处理逻辑分离,我们通常这样做 创建一个类,继承与EventArgs, //鼠标点击参数类 public class TileClickEventArgs : EventArgs { //0左键,1右键</description>
+    </item>
+    
+    <item>
+      <title>保卫萝卜MVC游戏开发</title>
+      <link>/post/mvc/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mvc/</guid>
+      <description>过程中很多时候并不知道自己在做什么,回头来看也不是很明白,但是先这么做吧,TODO一下之后再理解 创建了一个类继承与一个MVC,Applica</description>
+    </item>
     
     <item>
       <title>Unity2D中摄像头视角屏幕上的点坐标获取</title>

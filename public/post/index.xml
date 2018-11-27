@@ -21,6 +21,69 @@
     </item>
     
     <item>
+      <title>鹏哥再来一席话-位运算&amp;&amp;</title>
+      <link>/post/2018-11-26-/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-11-26-/</guid>
+      <description>鹏哥在吃饭的时候!!嗯,那我们先展示一张吃饭的照片吧 以上内容都不重要,以下内容才比较重要. 当现实中我们常常使用的加减乘除也是那些用位运算封装</description>
+    </item>
+    
+    <item>
+      <title>Read The Tensorflow Code</title>
+      <link>/post/read-the-tensorflow-code/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/read-the-tensorflow-code/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>从没有大小王中抽K和抽到黑色是相互独立的</title>
+      <link>/post/k/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/k/</guid>
+      <description>今天遇到一个问题,从一副没有大小王的牌中取到K和取到黑色的这两个事件是否相互影响. 抽到k不影响是否抽到黑色的 抽到k一共有四种情况,分别是两种</description>
+    </item>
+    
+    <item>
+      <title>学集合论遇到那点事</title>
+      <link>/post/2018-11-21-/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-11-21-/</guid>
+      <description>刚在在做集合证明的时候遇到一个很简单的题目,可我就是没想出来,这么脏的办法 其实很简单,为什么引入一个空集就这么方便呢,这个证明真的好脏啊. 下</description>
+    </item>
+    
+    <item>
+      <title>总结鹏哥的第二席话</title>
+      <link>/post/2018-11-19-/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-11-19-/</guid>
+      <description>先说一下鹏哥主要讲了什么我还记得什么真后悔没录音,当时鹏哥说了一下几个深搜,广搜,迪杰斯特拉算法,背包问题,斐波那契数列问题 我现在还记得他说</description>
+    </item>
+    
+    <item>
+      <title>Kali渗透测试</title>
+      <link>/post/kali/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/kali/</guid>
+      <description>我是个疯子用Teamviewer连接一台主机,在上面装了两个VM虚拟机,一个是Kali,一个是Windows,准备给Win装脆弱环境,当做k</description>
+    </item>
+    
+    <item>
+      <title>Linux中自己解决过的问题记录表</title>
+      <link>/post/linux/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/linux/</guid>
+      <description>使用fdisk和mkfs来格式化磁盘 插入一块新的磁盘,使用命令fdisk -l来显示所有磁盘的情况,然后我们使用mkfs -t ext4 -c /dev/**d</description>
+    </item>
+    
+    <item>
       <title>手游开发EasyTouch的使用</title>
       <link>/post/easytouch/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>

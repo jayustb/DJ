@@ -66,6 +66,15 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Python</title>
       <link>/categories/python/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
@@ -165,6 +174,15 @@
     </item>
     
     <item>
+      <title>安全</title>
+      <link>/categories/%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>密码学</title>
       <link>/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
@@ -192,6 +210,24 @@
     </item>
     
     <item>
+      <title>机器学习</title>
+      <link>/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>概率论</title>
+      <link>/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>游戏</title>
       <link>/categories/%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
@@ -215,6 +251,15 @@
       <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>集合论</title>
+      <link>/categories/%E9%9B%86%E5%90%88%E8%AE%BA/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/%E9%9B%86%E5%90%88%E8%AE%BA/</guid>
       <description></description>
     </item>
     

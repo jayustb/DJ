@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>概率论 on DashJay&#39;s</title>
+    <link>/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/</link>
+    <description>Recent content in 概率论 on DashJay&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>从没有大小王中抽K和抽到黑色是相互独立的</title>
+      <link>/post/k/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/k/</guid>
+      <description>今天遇到一个问题,从一副没有大小王的牌中取到K和取到黑色的这两个事件是否相互影响. 抽到k不影响是否抽到黑色的 抽到k一共有四种情况,分别是两种</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Plot</title>
       <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -176,7 +185,7 @@
     <item>
       <title>人工智能</title>
       <link>/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
-      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
       <description></description>
@@ -192,11 +201,38 @@
     </item>
     
     <item>
+      <title>学习</title>
+      <link>/tags/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>日本語</title>
       <link>/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</link>
       <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
       
       <guid>/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>概率</title>
+      <link>/tags/%E6%A6%82%E7%8E%87/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%A6%82%E7%8E%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>渗透</title>
+      <link>/tags/%E6%B8%97%E9%80%8F/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%B8%97%E9%80%8F/</guid>
       <description></description>
     </item>
     

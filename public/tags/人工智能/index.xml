@@ -6,10 +6,19 @@
     <description>Recent content in 人工智能 on DashJay&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read The Tensorflow Code</title>
+      <link>/post/read-the-tensorflow-code/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/read-the-tensorflow-code/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>TensorFlow莫凡</title>

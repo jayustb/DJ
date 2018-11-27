@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习 on DashJay&#39;s</title>
+    <link>/tags/%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 学习 on DashJay&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>学集合论遇到那点事</title>
+      <link>/post/2018-11-21-/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-11-21-/</guid>
+      <description>刚在在做集合证明的时候遇到一个很简单的题目,可我就是没想出来,这么脏的办法 其实很简单,为什么引入一个空集就这么方便呢,这个证明真的好脏啊. 下</description>
+    </item>
+    
+  </channel>
+</rss>
